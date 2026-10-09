@@ -1,0 +1,51 @@
+FIELD file for melt NaCl + octatomic Solutes 
+UNITS kJ
+MOLECULES 3
+
+NaCl
+NUMMOLs 253
+ATOMS 2
+Cl-          35.4530       -1.00     1
+Na+          22.9898        1.00     1
+FINISH  
+
+Solute1
+NUMMOLS     1
+ATOMS       5
+SA1        12.9898       0.00         1
+SA2        12.9898      -1.00         1
+SA3        12.9898       1.00         1
+SA4        12.9898      -1.00         1
+SA5        12.9898       1.00         1
+rigid 1
+ 5   1   2   3   4  5
+FINISH
+
+Solute2
+NUMMOLS     1
+ATOMS       1
+SA6         22.9898      1.00         1
+FINISH
+
+VDW       20
+Cl-     Cl-     LJ     1.0000        3.500
+Cl-     Na+     LJ     1.0000        3.500
+Na+     Na+     LJ     1.0000        3.500
+Cl-     SA1     LJ     1.0000        3.500  
+Cl-     SA2     LJ     1.0000        3.500
+Cl-     SA3     LJ     1.0000        3.500  
+Cl-     SA4     LJ     1.0000        3.500
+Cl-     SA5     LJ     1.0000        3.500
+Cl-     SA6     LJ     1.0000        3.500
+Na+     SA1     LJ     1.0000        3.500  
+Na+     SA2     LJ     1.0000        3.500 
+Na+     SA3     LJ     1.0000        3.500  
+Na+     SA4     LJ     1.0000        3.500
+Na+     SA5     LJ     1.0000        3.500  
+Na+     SA6     LJ     1.0000        3.500   
+SA1     SA6     LJ     1.0000        3.500 
+SA2     SA6     LJ     1.0000        3.500  
+SA3     SA6     LJ     1.0000        3.500
+SA4     SA6     LJ     1.0000        3.500  
+SA5     SA6     LJ     1.0000        3.500
+CLOSE

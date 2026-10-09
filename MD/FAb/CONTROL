@@ -1,0 +1,27 @@
+integration velocity verlet
+
+temperature          300.0
+ensemble nvt hoover  0.5   
+
+steps                 2500000 
+equilibration         1000000 
+scale 10
+print every        5000
+stack              5000
+
+epsilon             78.0  
+timestep           0.0015
+cutoff              10.0
+rvdw                10.0
+ewald precision    1e-6
+shake tolerance    1e-6
+mxshak             250
+
+trajectroy   1500000  10  0
+rdf            10
+print rdf
+
+job time          990000
+close time          20
+
+finish

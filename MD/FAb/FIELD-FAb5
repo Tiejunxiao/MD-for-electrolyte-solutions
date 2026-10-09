@@ -1,0 +1,42 @@
+FIELD file for melt NaCl + triatomic Solutes 
+UNITS kJ
+MOLECULES 2
+
+NaCl
+NUMMOLs 254
+ATOMS 2
+Cl-          35.4530       -1.00     1
+Na+          22.9898        1.00     1
+FINISH  
+
+Solute1
+NUMMOLS     1
+ATOMS       4
+SA1        22.9898      -1.00         1
+SA2        22.9898       1.00         1
+SA3        22.9898      -1.00         1
+SA4        22.9898       1.00         1
+rigid 1
+ 4   1   2  3 4
+FINISH
+
+
+VDW       17
+Cl-     Cl-     LJ     1.0000        3.500
+Cl-     Na+     LJ     1.0000        3.500
+Na+     Na+     LJ     1.0000        3.500
+Cl-     SA1     LJ     1.0000        3.500  
+Cl-     SA2     LJ     1.0000        3.500
+Cl-     SA3     LJ     1.0000        3.500  
+Cl-     SA4     LJ     1.0000        3.500
+Na+     SA1     LJ     1.0000        3.500  
+Na+     SA2     LJ     1.0000        3.500 
+Na+     SA3     LJ     1.0000        3.500  
+Na+     SA4     LJ     1.0000        3.500  
+SA1     SA2     LJ     1.0000        3.500  
+SA1     SA3     LJ     1.0000        3.500  
+SA1     SA4     LJ     1.0000        3.500 
+SA2     SA3     LJ     1.0000        3.500  
+SA2     SA4     LJ     1.0000        3.500  
+SA3     SA4     LJ     1.0000        3.500  
+CLOSE

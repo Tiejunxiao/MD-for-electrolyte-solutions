@@ -1,0 +1,28 @@
+FIELD file for aqueous NaCl + two solute ions 
+UNITS kJ
+MOLECULES 2
+
+NaCl
+NUMMOLs 255
+ATOMS 2
+Cl-          35.4530       -1.00     1
+Na+          22.9898        1.00     1
+FINISH  
+
+Solute1
+NUMMOLS     1
+ATOMS       2
+SA1        22.9898      -1.00         1
+SA2        22.9898       1.00         1
+FINISH
+
+VDW       8
+Cl-     Cl-     lj     1.0            3.500        
+Cl-     Na+     lj     1.0            3.500        
+Na+     Na+     lj     1.0            3.500
+Cl-     SA1     LJ     1.0            3.000
+Cl-     SA2     LJ     1.0            3.000
+Na+     SA1     LJ     1.0            3.000
+Na+     SA2     LJ     1.0            3.000
+SA1     SA2     LJ     1.0            3.500
+CLOSE

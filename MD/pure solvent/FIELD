@@ -1,0 +1,16 @@
+FIELD file for aqueous NaCl 
+UNITS kJ
+MOLECULES 1
+
+NaCl
+NUMMOLs 256
+ATOMS 2
+Cl-          35.4530       -1.00     1
+Na+          22.9898        1.00     1
+FINISH  
+
+VDW       3
+Cl-     Cl-     lj     1.0            3.50        
+Cl-     Na+     lj     1.0            3.50        
+Na+     Na+     lj     1.0            3.50
+CLOSE
