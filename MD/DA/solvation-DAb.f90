@@ -24,7 +24,7 @@ Program Ewaldsum
 !!    we take q3=-q1, q4=-q2 to keep the MD simulation box neutral.                                                                                                                    !!!!
 !*******************************************************************************************************************************************
 !!   IMPORTANT: without modification, this code  applies to the case of q1=-1, q2=1                                                                                       !!!!
-!!  specifically, the HISTORY file generated for MD with key (DAjb, j=1,2,3,4,5) can be used as input of this code.                                       !!!!
+!!  specifically, the HISTORY file generated for MD with key (DAjb, j=4,5) can be used as input of this code.                                       !!!!
 !!    When q1,2 take other values, one needs to modify the related site charge numbers  zi(3:6)  in line 59                                                   !!!!
 !*******************************************************************************************************************************************
 !!   IMPORTANT: This code outputs the mean electric potential of each solute site rather than the electrostatic energy of the solute.  !!!!
