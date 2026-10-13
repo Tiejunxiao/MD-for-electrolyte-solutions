@@ -1,14 +1,14 @@
-CC*************************************************************************************************************************
-CC*   Copyright (c) 2026 [Xueyu Song and Tiejun Xiao]. 
-CC*  This code is distributed under the terms of the Creative Commons Attribution 4.0 International  License (CC BY 4.0).
-CC*  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
-CC*
-CC*  Author: Xueyu Song
-CC*  Email:   [xsong@iastate.edu]
-CC*  Author: Tiejun Xiao
-CC*  Email:   [tjxiao@gznc.edu.cn]
-CC*  Date:    2026-10-04
-CC*************************************************************************************************************************
+!CC*************************************************************************************************************************
+!CC*   Copyright (c) 2026 [Xueyu Song and Tiejun Xiao]. 
+!CC*  This code is distributed under the terms of the Creative Commons Attribution 4.0 International  License (CC BY 4.0).
+!CC*  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.
+!CC*
+!CC*  Author: Xueyu Song
+!CC*  Email:   [xsong@iastate.edu]
+!CC*  Author: Tiejun Xiao
+!CC*  Email:   [tjxiao@gznc.edu.cn]
+!CC*  Date:    2026-10-04
+!CC*************************************************************************************************************************
 
 Program Ewaldsum
 
